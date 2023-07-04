@@ -1,0 +1,117 @@
+body{
+    background-color: white;
+}
+
+@keyframes blink {
+    0%{
+        opacity: 0%;
+    }100%{
+        opacity: 100%;
+    }
+}
+
+.container{
+    margin-top: 4rem;
+    margin-left: 40rem;
+    scale: 0.8;
+}
+
+
+.frame{
+    width: 30rem;
+    height: 60rem;
+    background-color: white;
+    position: absolute;
+    padding: 0rem;
+    border-radius: 12px;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5), -4px -4px 16px rgba(255, 255, 255, 0.05);
+}
+
+.display{
+    width:30rem;
+    height: 18rem;
+    background-color: #F0F8FF;
+    position: relative;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+.fa-ellipsis-v{
+    margin-top: 10px;
+    margin-left: 455px;
+}
+.pill{
+    height: 5px;
+    width: 30px;
+    background-color: grey;
+    margin-left: 230px;
+    margin-top: 230px;
+    border-radius: 5px;
+    position: absolute;
+}
+.bar{
+    height: 150px;
+    width: 2px;
+    background-color: blue;
+    border-radius: 5px;
+    margin-left: 457px;
+    margin-top: 15px;
+    animation: blink 800ms infinite;
+}
+.frow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.extra-buttons{
+    position: relative;
+    font-size: 3rem;
+    margin: 1rem 0rem 0rem 4rem;
+}
+
+.arrow-down{
+    background-color: #F0F8FF;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 55px;
+}
+
+.fa-angle-down{
+    margin-top: 9px;
+    margin-left: 11px;
+}
+
+.main-buttons{
+    background-color: #89CFF0;
+    height: 107px;
+    width: 107px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 60px;
+    padding: 1px;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+                     10px  10px 15px rgba(70,70,70,0.15);
+}
+
+.ac{
+    background-color: #7FFFD4;
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+                     10px  10px 15px rgba(70,70,70,0.15);
+}
+
+.num{
+    background-color: #F0F8FF;
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+                     10px  10px 15px rgba(70,70,70,0.15);
+}
+.eq{
+    background-color: #B9D9EB;
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+                     10px  10px 15px rgba(70,70,70,0.15);
+}
